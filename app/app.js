@@ -60,6 +60,11 @@ app.config(function ($routeProvider) {
         templateUrl : '../app/views/registoCliente.html',
         controller : 'registoClienteController'
     })
+    //Rota para Login 
+    .when('/login', {
+      templateUrl : '../app/views/login.html',
+      controller : 'loginController'
+  })
     .otherwise({
         redirectTo: "/"
     });
