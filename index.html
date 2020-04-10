@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biscato | buscando profissionais e serviços</title>
+    <!--Css-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css"> 
+    <link rel="stylesheet" href="./app/css/main.css">
+    <!-- Aqui vai todo estilo do site -->
+    <link rel="stylesheet" href="./app/css/layout/navbar.css">
+    <link rel="stylesheet" href="./app/css/layout/caroussel.css">
+    <link rel="stylesheet" href="./app/css/layout/home.css">
+    
+    <!--JS-->
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./node_modules/angular-route/angular-route.min.js"></script>
+    
+     <!--Controllers-->
+     <script src="./app/app.js"></script>
+    <script src="./app/controllers/homeController.js"></script>
+    <script src="./app/controllers/aboutController.js"></script>
+    <script src="./app/controllers/contactController.js"></script>
+    <script src="./app/controllers/registoProfissionalController.js"></script>
+    <script src="./app/controllers/registoClienteController.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark menu-principal bg-primario">
+        <a class="navbar-brand logo" href="/#!/">Biscato</a><span> | Buscando profissionais & Serviços Avaliados </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" data-is-active="active" href="/#!/">Home</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" data-is-active href="/#!/about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-is-active href="/#!/regPro">Registo Profissional</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-is-active href="/#!/regCli">Registo Cliente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-is-active href="/#!/contact">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-is-active href="/#!/login">Login</a>
+                    </li>
+                    
+                </ul>
+            
+           
+            
+        </div>
+    </nav>
+
+   <div ng-view></div>
+
+  
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.js"></script>
+</body>
+</html>

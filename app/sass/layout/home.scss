@@ -1,0 +1,31 @@
+.biscato-icon {
+    max-width: 60px;
+}
+.macro-icon {
+    position: relative;
+    fill: #0096d7;
+    width: 25%;
+    margin: auto;
+    color: rgb(119, 68, 68);
+}
+
+svg {
+    overflow: hidden;
+}
+img, svg {
+    vertical-align: middle;
+}
+
+.macrobar-wrapper {
+    max-width: 946px;
+}
+.macrobar-container {
+    top: 0px;
+    padding: 25px 0;
+    box-shadow: 0 0 10px 0 rgba(47,48,51,.2);
+    background-color: #f7fbfb;
+    position: relative;
+    border-radius: 4px;
+    text-align: center;
+    color: grey;
+}

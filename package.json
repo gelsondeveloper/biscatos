@@ -1,0 +1,44 @@
+{
+  "name": "biscatos",
+  "version": "1.0.0",
+  "description": "Buscando profissionais e serviços para sí ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gelsondeveloper/biscatos.git"
+  },
+  "keywords": [
+    "buffet",
+    "canalizador",
+    "eletricista",
+    "eventos",
+    "festa",
+    "cocktail",
+    "marcineiro"
+  ],
+  "author": "Gelson Gamboa João",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gelsondeveloper/biscatos/issues"
+  },
+  "homepage": "https://github.com/gelsondeveloper/biscatos#readme",
+  "dependencies": {
+    "angular": "^1.7.9",
+    "angular-route": "^1.7.9",
+    "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

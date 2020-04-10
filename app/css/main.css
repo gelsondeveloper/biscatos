@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*Aqui vão as cores principais usadas no projeto*/
+.bg-primario {
+  background-color: #0096d7; }
+
+/*Aqui vão os imports dos ficheiros principais sass usados no projeto*/
+.navbar-nav {
+  margin: auto; }
+
+.menu-principal .logo {
+  font-size: 25pt;
+  font-family: cursive; }
+
+.menu-principal span {
+  color: #fff;
+  font-size: 14pt; }
+
+.menu-principal .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 13pt;
+  padding: 0 15px;
+  font-family: cursive; }
+
+.menu-principal .navbar-nav .nav-link:hover {
+  color: #000;
+  font-size: 13pt;
+  padding: 0 15px;
+  font-family: cursive;
+  border-bottom: 3px solid #000;
+  background-color: #fff; }
+
+.menu-principal .navbar-nav .nav-link.active {
+  color: #000;
+  font-size: 13pt;
+  padding: 0 15px;
+  font-family: cursive;
+  border-bottom: 3px solid #000;
+  background-color: #fff; }
